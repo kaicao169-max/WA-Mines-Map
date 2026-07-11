@@ -1,0 +1,17 @@
+{
+  "dark_mode": {
+    "name": "暗黑科技模式",
+    "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+    "attr": "&copy; CartoDB"
+  },
+  "satellite_mode": {
+    "name": "高精卫星模式",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    "attr": "&copy; Esri"
+  },
+  "osm_mode": {
+    "name": "标准道路模式",
+    "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "attr": "&copy; OpenStreetMap"
+  }
+}
