@@ -40,7 +40,7 @@ BASE_MAP = get_map()
 # %%
 @st.cache_data
 def get_data():
-    gdf = gpd.read_file(r"data\WA_Mines_30483.geojson")
+    gdf = gpd.read_file("data/WA_Mines_30483.geojson")
     gdf = gdf.to_crs(epsg=4326)
     return gdf
 placeholder = st.empty()
